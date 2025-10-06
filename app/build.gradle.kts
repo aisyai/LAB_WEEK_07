@@ -39,6 +39,10 @@ android {
     }
 }
 
+secrets {
+    propertiesFileName = "secret.properties"
+}
+
 dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.fragment.ktx)
